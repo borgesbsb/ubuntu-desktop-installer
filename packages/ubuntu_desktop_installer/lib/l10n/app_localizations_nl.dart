@@ -50,9 +50,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get welcomeHeader => 'Choose your language:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'Uitproberen of installeren';
-  }
+  String get tryOrInstallPageTitle => 'Uitproberen of installeren';
 
   @override
   String get repairInstallation => 'Repareer de installatie';

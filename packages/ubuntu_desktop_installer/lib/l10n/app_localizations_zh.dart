@@ -739,9 +739,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return '这台电脑使用了 Windows BitLocker 进行加密。\n在安装 Ubuntu 之前，您需要关闭 Windows 的 BitLocker 功能。';
-  }
+  String get turnOffBitlockerDescription => '这台电脑使用了 Windows BitLocker 进行加密。\n在安装 Ubuntu 之前，您需要关闭 Windows 的 BitLocker 功能。';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

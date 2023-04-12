@@ -50,9 +50,7 @@ class AppLocalizationsIs extends AppLocalizations {
   String get welcomeHeader => 'Choose your language:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'Prófa eða uppsetja';
-  }
+  String get tryOrInstallPageTitle => 'Prófa eða uppsetja';
 
   @override
   String get repairInstallation => 'Viðgera uppsetningu';

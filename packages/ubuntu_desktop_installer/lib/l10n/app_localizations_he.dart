@@ -739,9 +739,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'המחשב הזה משתמש בהצפנת BitLocker של Windows.\nיש לכבות את BitLocker ב־Windows בטרם התקנת אובונטו.';
-  }
+  String get turnOffBitlockerDescription => 'המחשב הזה משתמש בהצפנת BitLocker של Windows.\nיש לכבות את BitLocker ב־Windows בטרם התקנת אובונטו.';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

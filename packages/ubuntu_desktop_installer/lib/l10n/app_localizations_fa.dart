@@ -50,9 +50,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get welcomeHeader => 'زبانتان را برگزینید:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'امتحان کردن یا نصب';
-  }
+  String get tryOrInstallPageTitle => 'امتحان کردن یا نصب';
 
   @override
   String get repairInstallation => 'تعمیر نصب';

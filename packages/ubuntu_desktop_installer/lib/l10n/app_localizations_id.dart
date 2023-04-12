@@ -50,9 +50,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get welcomeHeader => 'Pilih bahasa Anda:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'Coba atau pasang';
-  }
+  String get tryOrInstallPageTitle => 'Coba atau pasang';
 
   @override
   String get repairInstallation => 'Perbaiki instalasi';
@@ -739,9 +737,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'Komputer ini menggunakan enkripsi Windows BitLocker.\nAnda perlu mematikan BitLocker di Windows sebelum memasang Ubuntu.';
-  }
+  String get turnOffBitlockerDescription => 'Komputer ini menggunakan enkripsi Windows BitLocker.\nAnda perlu mematikan BitLocker di Windows sebelum memasang Ubuntu.';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

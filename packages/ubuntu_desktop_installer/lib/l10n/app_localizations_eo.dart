@@ -739,9 +739,7 @@ class AppLocalizationsEo extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'Ĉi tiu komputilo uzas ĉifradon de Windows BitLocker.\nVi devas malŝalti BitLocker en Windows antaŭ ol instali Ubuntu.';
-  }
+  String get turnOffBitlockerDescription => 'Ĉi tiu komputilo uzas ĉifradon de Windows BitLocker.\nVi devas malŝalti BitLocker en Windows antaŭ ol instali Ubuntu.';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

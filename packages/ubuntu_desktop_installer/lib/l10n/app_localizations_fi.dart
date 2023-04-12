@@ -739,9 +739,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'Tämä tietokone käyttää Windowsin BitLocker-salausta.\nSinun tulee sammuttaa BitLocker, ennen kuin asennat Ubuntun.';
-  }
+  String get turnOffBitlockerDescription => 'Tämä tietokone käyttää Windowsin BitLocker-salausta.\nSinun tulee sammuttaa BitLocker, ennen kuin asennat Ubuntun.';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

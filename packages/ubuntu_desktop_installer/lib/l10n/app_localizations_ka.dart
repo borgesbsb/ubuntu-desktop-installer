@@ -50,9 +50,7 @@ class AppLocalizationsKa extends AppLocalizations {
   String get welcomeHeader => 'აირჩიეთ თქვენი ენა:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'ცდა ან დაყენება';
-  }
+  String get tryOrInstallPageTitle => 'ცდა ან დაყენება';
 
   @override
   String get repairInstallation => 'დაყენებული ვერსიის შეკეთება';

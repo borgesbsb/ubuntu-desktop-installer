@@ -739,9 +739,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'このコンピューターは Windows BitLocker で暗号化されています。\nUbuntu をインストールする前に Windows で BitLocker をオフにしてください。';
-  }
+  String get turnOffBitlockerDescription => 'このコンピューターは Windows BitLocker で暗号化されています。\nUbuntu をインストールする前に Windows で BitLocker をオフにしてください。';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

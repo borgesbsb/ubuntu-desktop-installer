@@ -50,9 +50,7 @@ class AppLocalizationsNb extends AppLocalizations {
   String get welcomeHeader => 'Velg ditt språk:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'Prøv eller Installere';
-  }
+  String get tryOrInstallPageTitle => 'Prøv eller Installere';
 
   @override
   String get repairInstallation => 'Reparere installasjonen';
@@ -739,9 +737,7 @@ class AppLocalizationsNb extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'Maskinen bruker Windows BitLocker-kryptering.\nDu må skru dette av før du installerer Ubuntu.';
-  }
+  String get turnOffBitlockerDescription => 'Maskinen bruker Windows BitLocker-kryptering.\nDu må skru dette av før du installerer Ubuntu.';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

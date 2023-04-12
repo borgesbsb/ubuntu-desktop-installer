@@ -50,9 +50,7 @@ class AppLocalizationsSi extends AppLocalizations {
   String get welcomeHeader => 'ඔබගේ භාෂාව තෝරන්න:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'බලන්න හෝ ස්ථාපනය කරන්න';
-  }
+  String get tryOrInstallPageTitle => 'බලන්න හෝ ස්ථාපනය කරන්න';
 
   @override
   String get repairInstallation => 'ස්ථාපනය අලුත්වැඩියාව';
@@ -739,9 +737,7 @@ class AppLocalizationsSi extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'මෙම පරිගණකය වින්ඩෝස් බිට්ලොකර් සංකේතනය භාවිතා කරයි.\nඋබුන්ටු ස්ථාපනයට පෙර ඔබ වින්ඩෝස් හි බිට්ලොකර් අක්‍රිය කළ යුතුය.';
-  }
+  String get turnOffBitlockerDescription => 'මෙම පරිගණකය වින්ඩෝස් බිට්ලොකර් සංකේතනය භාවිතා කරයි.\nඋබුන්ටු ස්ථාපනයට පෙර ඔබ වින්ඩෝස් හි බිට්ලොකර් අක්‍රිය කළ යුතුය.';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

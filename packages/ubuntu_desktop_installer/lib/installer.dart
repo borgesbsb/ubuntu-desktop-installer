@@ -14,7 +14,6 @@ import 'package:ubuntu_wizard/utils.dart';
 import 'package:ubuntu_wizard/widgets.dart';
 import 'package:yaru/yaru.dart';
 import 'package:yaru_widgets/yaru_widgets.dart';
-
 import 'l10n.dart';
 import 'pages.dart';
 import 'routes.dart';

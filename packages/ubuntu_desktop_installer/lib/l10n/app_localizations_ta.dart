@@ -50,9 +50,7 @@ class AppLocalizationsTa extends AppLocalizations {
   String get welcomeHeader => 'Choose your language:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'சோதி அல்லது நிறுவு';
-  }
+  String get tryOrInstallPageTitle => 'சோதி அல்லது நிறுவு';
 
   @override
   String get repairInstallation => 'நிறுவலை பழுதுபார்';

@@ -50,9 +50,7 @@ class AppLocalizationsNe extends AppLocalizations {
   String get welcomeHeader => 'आफ्नो भाषा छान्नुहोस्:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'प्रयास गर्नुहोस् वा स्थापना गर्नुहोस्';
-  }
+  String get tryOrInstallPageTitle => 'प्रयास गर्नुहोस् वा स्थापना गर्नुहोस्';
 
   @override
   String get repairInstallation => 'Repair installation';

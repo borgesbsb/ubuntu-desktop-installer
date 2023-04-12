@@ -50,9 +50,7 @@ class AppLocalizationsCa extends AppLocalizations {
   String get welcomeHeader => 'Trieu la vostra llengua:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'Prova o instal·la';
-  }
+  String get tryOrInstallPageTitle => 'Prova o instal·la';
 
   @override
   String get repairInstallation => 'Repara la instal·lació';

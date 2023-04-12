@@ -50,9 +50,7 @@ class AppLocalizationsSr extends AppLocalizations {
   String get welcomeHeader => 'Изаберите ваш језик:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'Испробајте или инсталирајте';
-  }
+  String get tryOrInstallPageTitle => 'Испробајте или инсталирајте';
 
   @override
   String get repairInstallation => 'Поправи инсталацију';

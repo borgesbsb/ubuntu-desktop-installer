@@ -50,9 +50,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get welcomeHeader => 'Válassza ki a nyelvet:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'Próbálja ki vagy telepítse';
-  }
+  String get tryOrInstallPageTitle => 'Próbálja ki vagy telepítse';
 
   @override
   String get repairInstallation => 'Javító telepítés';
@@ -739,9 +737,7 @@ class AppLocalizationsHu extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'Ez a számítógép Windows BitLocker titkosítást használ.\nAz Ubuntu telepítése előtt ki kell kapcsolnia a BitLockert a Windowsban.';
-  }
+  String get turnOffBitlockerDescription => 'Ez a számítógép Windows BitLocker titkosítást használ.\nAz Ubuntu telepítése előtt ki kell kapcsolnia a BitLockert a Windowsban.';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {

@@ -50,9 +50,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get welcomeHeader => 'Оберіть мову:';
 
   @override
-  String tryOrInstallPageTitle(Object DISTRO) {
-    return 'Спробувати або встановити';
-  }
+  String get tryOrInstallPageTitle => 'Спробувати або встановити';
 
   @override
   String get repairInstallation => 'Виправити встановлення';
@@ -739,9 +737,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get turnOffBitlockerHeadline => 'Turn off BitLocker to continue';
 
   @override
-  String turnOffBitlockerDescription(Object option) {
-    return 'На цьому комп\'ютері використовується шифрування Windows BitLocker.\nПеред встановленням Ubuntu потрібно вимкнути BitLocker у Windows.';
-  }
+  String get turnOffBitlockerDescription => 'На цьому комп\'ютері використовується шифрування Windows BitLocker.\nПеред встановленням Ubuntu потрібно вимкнути BitLocker у Windows.';
 
   @override
   String turnOffBitlockerLinkInstructions(Object url) {
